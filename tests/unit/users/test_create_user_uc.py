@@ -9,6 +9,6 @@ def test_create_user_publishes_event(monkeypatch):
         # No Rabbit – solo simula
             return {"id": "fake-id"}
 
-        h = DummyHandler()
-        result = h.handle("Ada", "ada@example.com", "s3cret")
-        assert result["id"] == "fake-id"
+    h = DummyHandler()
+    result = h.handle("Ada", "ada@example.com", "s3cret")
+    assert result["id"] == "fake-id"

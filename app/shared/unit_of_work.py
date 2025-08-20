@@ -1,7 +1,6 @@
 from contextlib import AbstractContextManager
 from typing import Callable
 
-
 class UnitOfWork(AbstractContextManager):
     def __init__(self, session_factory: Callable):
         self._session_factory = session_factory

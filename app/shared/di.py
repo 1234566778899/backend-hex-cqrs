@@ -1,6 +1,5 @@
 from typing import Any, Dict, Type
 
-
 class Container:
     def __init__(self) -> None:
         self._registry: Dict[str, Any] = {}
