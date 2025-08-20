@@ -61,7 +61,6 @@ backend-hex-cqrs/
 │  │     ├─ test_value_objects.py
 │  │     └─ test_create_user_uc.py
 │  └─ __init__.py
-├─ alembic/ (opcional si deseas migraciones)
 ├─ Dockerfile
 ├─ docker-compose.yml
 ├─ requirements.txt
